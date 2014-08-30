@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		36E6395E19B2286B006B4A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6395D19B2286B006B4A33 /* main.m */; };
 		36E6396119B2286B006B4A33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6396019B2286B006B4A33 /* AppDelegate.m */; };
-		36E6396419B2286B006B4A33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6396319B2286B006B4A33 /* ViewController.m */; };
 		36E6396719B2286B006B4A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E6396519B2286B006B4A33 /* Main.storyboard */; };
 		36E6396919B2286B006B4A33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E6396819B2286B006B4A33 /* Images.xcassets */; };
 		36E6397519B2286B006B4A33 /* UITableViewChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6397419B2286B006B4A33 /* UITableViewChallengeTests.m */; };
+		36E6398019B228E6006B4A33 /* JKNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6397F19B228E6006B4A33 /* JKNTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		36E6395D19B2286B006B4A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36E6395F19B2286B006B4A33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		36E6396019B2286B006B4A33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		36E6396219B2286B006B4A33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		36E6396319B2286B006B4A33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		36E6396619B2286B006B4A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36E6396819B2286B006B4A33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		36E6396E19B2286B006B4A33 /* UITableViewChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E6397319B2286B006B4A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36E6397419B2286B006B4A33 /* UITableViewChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewChallengeTests.m; sourceTree = "<group>"; };
+		36E6397E19B228E6006B4A33 /* JKNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKNTableViewController.h; path = ../JKNTableViewController.h; sourceTree = "<group>"; };
+		36E6397F19B228E6006B4A33 /* JKNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKNTableViewController.m; path = ../JKNTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +79,10 @@
 		36E6395A19B2286B006B4A33 /* UITableViewChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				36E6397E19B228E6006B4A33 /* JKNTableViewController.h */,
+				36E6397F19B228E6006B4A33 /* JKNTableViewController.m */,
 				36E6395F19B2286B006B4A33 /* AppDelegate.h */,
 				36E6396019B2286B006B4A33 /* AppDelegate.m */,
-				36E6396219B2286B006B4A33 /* ViewController.h */,
-				36E6396319B2286B006B4A33 /* ViewController.m */,
 				36E6396519B2286B006B4A33 /* Main.storyboard */,
 				36E6396819B2286B006B4A33 /* Images.xcassets */,
 				36E6395B19B2286B006B4A33 /* Supporting Files */,
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36E6396419B2286B006B4A33 /* ViewController.m in Sources */,
 				36E6396119B2286B006B4A33 /* AppDelegate.m in Sources */,
 				36E6395E19B2286B006B4A33 /* main.m in Sources */,
+				36E6398019B228E6006B4A33 /* JKNTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

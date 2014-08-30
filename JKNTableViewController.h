@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JKNTableViewController.h
 //  UITableViewChallenge
 //
 //  Created by Jason Nash on 30/08/2014.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JKNTableViewController : UITableViewController
 
 @end
-
